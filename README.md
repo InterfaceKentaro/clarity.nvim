@@ -7,14 +7,9 @@ Clarity.nvim is a neovim color scheme forked from [silentium-theme/silentium.nvi
 ## Component.
 ```
 .
-├── LICENSE
 ├── README.md
 ├── colors
 │   ├── clarity.lua
-│   └── silentium.lua
-├── lua
-│   ├── clarity.lua
-│   └── silentium.lua
-├── preview.png
-└── zlayout.kdl
+└── lua
+    └── clarity.lua
 ```
