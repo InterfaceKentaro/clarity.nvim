@@ -25,7 +25,7 @@ M.color_group = {
     main = {
         base = "#1c9b86", -- base color (the most dark of the three)
         pale = "#9bf2e4", -- pale color (bit more lighter than base)
-        bright = "5cc7b5", -- bright color (the most bright of the three)
+        bright = "#5cc7b5", -- bright color (the most bright of the three)
     }
 }
 
