@@ -1,3 +1,8 @@
+-- ----------------------------------------------- --
+-- Copyright (c) 2026 Silentium Theme contributors -- 
+--       Copyright (C) 2026 InterfaceKentar        -- 
+--        Lisenced under the MIT license.          --
+-- ----------------------------------------------- --
 local M = {}
 
 local vim = vim
@@ -139,6 +144,21 @@ function M.colorscheme()
 	hl("WinBar", { bg = M.colors.main_accent, fg = M.colors.dark })
 	hl("WinBarNC", { bg = M.colors.main_accent, fg = M.colors.dark })
 	hl("WinSeparator", { fg = M.colors.gray })
+
+    hl("mkdCodeDelimiter", { fg = t.grey })
+    hl("mkdCodeStart", { fg = t.blue })
+    hl("mkdCodeEnd", { fg = t.blue })
+
+    hl("markdownHeadingDelimiter", { fg = t.grey })
+    hl("markdownCode", { fg = t.cyan })
+    hl("markdownCodeBlock", { fg = t.cyan })
+    hl("markdownH1" , { fg = t.orange, bold = true })
+    hl("markdownH2" , { fg = t.cyan, bold = true })
+    hl("markdownH3" , { fg = t.blue, bold = true })
+    hl("markdownH4" , { fg = t.purple, bold = true })
+    hl("markdownH5" , { fg = t.magenta, bold = true })
+    hl("markdownH6" , { fg = t.green, bold = true })
+    hl("markdownLinkText" , { fg = t.blue, underline = true })
 
 	vim.g.terminal_color_0 = M.colors.dark_gray
 	vim.g.terminal_color_1 = M.base_colors.red
