@@ -152,9 +152,9 @@ function M.colorscheme()
     -- hl("markdownHeadingDelimiter", { fg = M.colors.main_ })
     -- hl("markdownCode", {})
     -- hl("markdownCodeBlock", {})
-    hl("markdownH1" , { fg = M.color_group.main.bright })
-    hl("markdownH2" , { fg = M.color_group.main.pale })
-    hl("markdownH3" , { fg = M.color_group.main.base })
+    hl("MarkdownH1" , { fg = M.color_group.main.bright })
+    hl("MarkdownH2" , { fg = M.color_group.main.pale })
+    hl("MarkdownH3" , { fg = M.color_group.main.base })
 
 	vim.g.terminal_color_0 = M.colors.dark_gray
 	vim.g.terminal_color_1 = M.base_colors.red
